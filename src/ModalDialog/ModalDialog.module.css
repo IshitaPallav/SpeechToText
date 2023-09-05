@@ -1,0 +1,63 @@
+.overlay {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  background: rgb(30, 30, 30, 0.15);
+}
+
+.content {
+  background-color: white;
+  border-radius: 10px;
+  padding:15px 20px;
+  padding-top:10px;
+  position: relative;
+  color: #585555; /* tint 800 */
+  border: 1px solid #b3b3b3;
+  box-shadow: 2px 2px 6px #858585;
+}
+
+.content img {
+  float: right;
+}
+.content img:hover {
+  background-color: #ddd;
+}
+
+.blockcontainer{
+  clear:both;
+  display: block;
+}
+.blockcontainer > div{
+  clear:both;
+  display: block;
+  width:100%;
+}
+.title{
+  font-weight:500;
+}
+
+.titlebar {
+  margin-top:8px;
+  border-bottom: 1.4px solid #aaaaaa; /* tint 500 */
+  padding-bottom: 10px;
+  font-size: 18px;
+  margin-bottom: 12px;
+  cursor:pointer;
+}
+.titlebar:active:hover{
+  cursor: grab;
+}
+.dragmodalhandle:active{
+  cursor:pointer;
+}
+.modalchild{
+  font-family: 'Frutiger LT Light';
+
+}

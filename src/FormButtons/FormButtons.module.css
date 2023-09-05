@@ -1,0 +1,25 @@
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+  padding-right: 5px;
+}
+
+.buttons a.button {
+  margin-left: 20px;
+  color: white;
+  border-radius: 3px;
+  border: none;
+}
+
+.create_button {
+  background-color: #3388dd; /* tint 500 */
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.cancel_button {
+  background-color: #aaaaaa; /* tint 500 */
+  padding: 6px 20px;
+  cursor: pointer;
+}

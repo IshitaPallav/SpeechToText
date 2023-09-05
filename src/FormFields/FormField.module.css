@@ -1,0 +1,128 @@
+.formfield{
+  clear: both;
+  display: block;
+  padding-bottom: 12px;
+}
+
+.formfieldlabelcontainer{
+  clear: both;
+  display: block;
+  overflow: hidden;
+}
+
+td > .formfieldlabelcontainer{
+  margin-top:5px;
+  vertical-align: top;
+  horiz-align: left;
+}
+
+.formfieldlabelcontainer > div{
+  display: flex;
+} 
+
+.disabledformfield  .formfieldchild{
+  disabled: "disabled";
+  pointer-events: none;
+}
+
+.formfieldlabel{
+  display: inline-block;
+  min-height: 20px;
+}
+.required {
+    color: red;
+    padding-left:5px;
+}
+
+.formfieldchild{
+  clear: both;
+  display: block;
+  width:100%;
+  font-family: 'Frutiger LT Light';
+  font-size: 1em;
+}
+.formfieldchild > * {
+  width: calc(100% - 8px);
+}
+.formfieldchild {
+  input[type="text"]{
+    @extend .inputtextboxstyle;
+    font-family: "Frutiger LT Light";
+    font-size: 1em;
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+    min-height: 16px;
+  }
+  input[type="text"].readonlyinput{
+    background: whitesmoke;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    height: 20px;
+  }
+}
+input[type='text'].formfieldchildinput{
+  @extend .inputtextboxstyle;
+  font-family: "Frutiger LT Light";
+  font-size: 1em;
+  border: 1px solid #aaaaaa;
+  border-radius: 4px;
+  min-height: 16px;
+}
+input[type='text'].formfieldchildinput.readonlyinput{
+  background: whitesmoke;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  height: 20px;
+}
+
+.formfieldchild {
+  input[type="textarea"]{
+    @extend .inputtextboxstyle;
+    font-family: "Frutiger LT Light";
+    font-size: 1em;
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+    min-height: 16px;
+  }
+  input[type="textarea"].readonlyinput{
+    background: whitesmoke;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    height: 20px;
+  }
+}
+input[type='textarea'].formfieldchildinput{
+  @extend .inputtextboxstyle;
+  font-family: "Frutiger LT Light";
+  font-size: 1em;
+  border: 1px solid #aaaaaa;
+  border-radius: 4px;
+  min-height: 16px;
+}
+input[type='textarea'].formfieldchildinput.readonlyinput{
+  background: whitesmoke;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  height: 20px;
+}
+
+
+.formfieldchild textarea{
+  @extend .textareastyle;
+}
+
+.formfieldchild select{
+  @extend .selectstyle;
+  width: calc(100% - 2px);
+}
+
+.formfieldchild select option{
+  @extend .selectstyle;
+}
+
+
+.error {
+  color: rgb(221, 57, 46);
+  font-size: 14px;
+  padding-top: 2px;
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <style>.a{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}</style>
+    </defs>
+    <g transform="translate(0 0.001)">
+        <path class="a" d="M1,16A15,15,0,1,0,16,1,15,15,0,0,0,1,16Z" />
+        <path class="a" d="M10,22,22,10" />
+        <path class="a" d="M22,22,10,10" />
+    </g>
+</svg>
